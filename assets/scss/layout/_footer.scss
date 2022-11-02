@@ -1,0 +1,52 @@
+.footer{
+    background: #aaa;
+    padding: 47px;
+    .common-inner{
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+        .addr-area{
+        .logo{
+            color: rgb(0,0,0,0.5);}
+        .addr-wrap{
+            padding: 23px 0 0;
+            font-size: 16px;
+            line-height: 30px;
+            .addr{
+
+                .bar{
+                    width: 2px; height: 14px;
+                    background: #fff;
+                    margin: 3px 10px;
+                }
+            }
+            .copy{
+                margin-top: 18px;
+            }
+        }
+        }
+        .cs-area{
+            width: 300px;
+            height: 166px;
+            border: 2px solid #fff;
+            padding: 26px 20px;
+
+            .title{
+                font-size: 24px;
+                line-height: 30px;
+                font-weight: 500;
+                font-family: $font-en;
+            }
+            .desc{
+                margin: 3px 0 17px;
+                font-size: 18px;
+                line-height: 28px;
+            }
+            .call{
+                font-size: 36px;
+                font-weight: 500;
+                font-family: $font-en;
+            }
+        }
+}
