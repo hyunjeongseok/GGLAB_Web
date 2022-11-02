@@ -7,18 +7,20 @@
         color: #fff;
     }
         .addr-area{
-        .logo{
-            color: rgb(0,0,0,0.5);}
+        
         .addr-wrap{
             padding: 23px 0 0;
             font-size: 16px;
             line-height: 30px;
             .addr{
-
+                display: flex;
+                align-items: center;
                 .bar{
+                    display: inline-block;
+                    vertical-align: top;
                     width: 2px; height: 14px;
                     background: #fff;
-                    margin: 3px 10px;
+                    margin: 8px 10px;
                 }
             }
             .copy{
@@ -49,4 +51,5 @@
                 font-family: $font-en;
             }
         }
+    
 }

@@ -192,19 +192,22 @@ body {
   justify-content: space-between;
   color: #fff;
 }
-.footer .addr-area .logo {
-  color: rgba(0, 0, 0, 0.5);
-}
 .footer .addr-area .addr-wrap {
   padding: 23px 0 0;
   font-size: 16px;
   line-height: 30px;
 }
+.footer .addr-area .addr-wrap .addr {
+  display: flex;
+  align-items: center;
+}
 .footer .addr-area .addr-wrap .addr .bar {
+  display: inline-block;
+  vertical-align: top;
   width: 2px;
   height: 14px;
   background: #fff;
-  margin: 3px 10px;
+  margin: 8px 10px;
 }
 .footer .addr-area .addr-wrap .copy {
   margin-top: 18px;
@@ -488,4 +491,17 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 65px;
+  right: 75px;
+}
+
+.pg-up {
+  position: fixed;
+  bottom: 65px;
+  right: 75px;
+  z-index: 100;
 }
